@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English=SC&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(75, 128, 25);
+    margin: 0px;
+}
+
+h1 {
+    color:darkviolet
+    
+}
+
+h3 {
+    color:coral;
+    text-decoration: underline;
+}
+
+img {
+    width:20%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+p {
+    color:skyblue;
+}
+
+.greentext {
+    color:palegoldenrod
+}
+
+.centertext{
+    text-align: center;
+}
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+#navbar a{
+    color:azure
+}
+.maincontent{
+    background-color:rgba (175,238,238,0.5);
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.smallercontent{
+    background-image:url('bg.jpg');
+    padding: solid5px #fff;
+    margin: 20px;
+    width: 50%;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    
+}
+
+.row{
+    display: flex;
+    
+}
+.logo{
+    float:left;
+}
+.bigpicture{
+    width: 60%;
+}
